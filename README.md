@@ -1,5 +1,5 @@
+![Image](./files/me.JPG)
 # About Me
-![Image](./files/me_2.JPG)
 Hi there! My name is **Yuhong Jiang(江禹宏)**, and I am currently a M.S. student in Department of Electrical and Computer Engineering, University of California, Los Angeles (UCLA). Before coming to L.A., I spent my 4 years of undergraduate study at Tsinghua University in Beijing, China.  
 My research interests include but are not limited to **machine learning, computer vision, reinforcement learning and other AI-related areas**.
 
@@ -32,48 +32,48 @@ GPA: 3.58/4.0
 # Research Experience
 * **Phase Identification of Power Distribution Network Based on Big Data, 2018.12 - 2019.06**  
 _Supervised by Prof. [Jin Lin](http://www.eea.tsinghua.edu.cn/cn/faculties/jlin/) at Tsinghua University_  
-  - Applied Random Forest Classifier, t-SNE and Mapper of Topological Data Analysis(TDA) to the phase identification of smart meters, based on collected historical big data of voltage magnitude, and fine-tuned the model.  
-  - Applied Monte Carlo method to the model, which helped select the training sets effectively and improve accuracy of phase identification with small workload.
+  * Applied Random Forest Classifier, t-SNE and Mapper of Topological Data Analysis(TDA) to the phase identification of smart meters, based on collected historical big data of voltage magnitude, and fine-tuned the model.  
+  * Applied Monte Carlo method to the model, which helped select the training sets effectively and improve accuracy of phase identification with small workload.
   
 * **Implementation and Analysis of Bitcoin system and Ethereum system, 2018.07 - 2018.09**  
 _Supervised by Prof. [Xiaodong Wang](https://www.ee.columbia.edu/~wangx/) at Columbia University_  
-  -	Simulated two blockchain systems: Bitcoin system and Ethereum system by Matlab.  
-  - Analyzed the difference of behavior and security of the two systems when under attack.
+  *	Simulated two blockchain systems: Bitcoin system and Ethereum system by Matlab.  
+  * Analyzed the difference of behavior and security of the two systems when under attack.
 
 
 # Relevant Course Projects
 * **Deep Reinforcement Learning with Double Q-learning, 2020.05 - 2020.06**  
-  - Implemented both DQN and Double DQN on a PLE game ‘Pixelcopter’.  
-  - Optimized and compared the two networks. Evaluated their issues of value overestimation.  
-  - The trained agent achieved humal-level performance.
+  * Implemented both DQN and Double DQN on a PLE game ‘Pixelcopter’.  
+  * Optimized and compared the two networks. Evaluated their issues of value overestimation.  
+  * The trained agent achieved humal-level performance.
   
 * **Combined Network Based Deep Learning Methods for EEG Dataset Classification, 2020.03**  
-  - Implemented and combined different architectures of CNN and RNN, and optimized them over hyper parameters.  
-  - Applied data augmentation, voting methods, etc. to the model, which boosted the accuracy to over 70%.
+  * Implemented and combined different architectures of CNN and RNN, and optimized them over hyper parameters.  
+  * Applied data augmentation, voting methods, etc. to the model, which boosted the accuracy to over 70%.
   
 * **Grocery Shopping Helper Based on Interactively Customized Image Classifier, 2019.12**  
-  - Implemented a customizable web application, which classified goods based on a MobileNet by Google.  
-  - Applied transfer learning to the application by removing the last layer of MobileNet and appending KNN to it, enabling the model to be trained and customized simultaneously.
+  * Implemented a customizable web application, which classified goods based on a MobileNet by Google.  
+  * Applied transfer learning to the application by removing the last layer of MobileNet and appending KNN to it, enabling the model to be trained and customized simultaneously.
   
 * **The Design of a Recognition Model of Grayscale Handwritten Numbers, 2019.05**  
-  - Developed a recognition model of combined networks of five Lenet-5.  
-  - Achieved the accuracy of over 99% by applying the model trained on 42,000 images of handwritten numbers to 28,000 new images.  
+  * Developed a recognition model of combined networks of five Lenet-5.  
+  * Achieved the accuracy of over 99% by applying the model trained on 42,000 images of handwritten numbers to 28,000 new images.  
   
 * **The Development of a Chinese Input Method, 2019.03**  
-  - Developed a Chinese Input Model by Python, using Hidden Markov Model, Viterbi Algorithm, etc.  
-  - Realized the output of corresponding Chinese characters of highest probability by identifying the input phonetic transcription of sentences.  
+  * Developed a Chinese Input Model by Python, using Hidden Markov Model, Viterbi Algorithm, etc.  
+  * Realized the output of corresponding Chinese characters of highest probability by identifying the input phonetic transcription of sentences.  
 
 
 # Extracurricular Activities
 * **Basketball**
-  - Member of Tsinghua University representative basketball team, 2015.11 - 2018.03  
-  - Member and starter of EE Department representative basketball team, Tsinghua University, 2015.09 - 2019.07
-    > Won the school championship in 2016 and 2017.  
-  - Head of Sports Department, Student Union of EE Department, Tsinghua University, 2016.07 - 2017.06
+  * Member of Tsinghua University representative basketball team, 2015.11 - 2018.03  
+  * Member and starter of EE Department representative basketball team, Tsinghua University, 2015.09 - 2019.07
+    * Won the school championship in 2016 and 2017.  
+  * Head of Sports Department, Student Union of EE Department, Tsinghua University, 2016.07 - 2017.06
 
 * **Track and Field**
-  - Won gold medals in both the long jump and the high jump in EE Department Sports Day, 2016 & 2017
-  - Won bronze medals in the high jump in Tsinghua University Sports Day, 2016 & 2017
+  * Won gold medals in both the long jump and the high jump in EE Department Sports Day, 2016 & 2017
+  * Won bronze medals in the high jump in Tsinghua University Sports Day, 2016 & 2017
 
 <!--
 You can use the [editor on GitHub](https://github.com/yh-jiang/yh-jiang.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
