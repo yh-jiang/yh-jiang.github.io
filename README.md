@@ -1,1 +1,1 @@
-# Welcome to my person webpage!
+# Welcome to my personal webpage!
