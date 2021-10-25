@@ -85,7 +85,7 @@
 				<p>Hi there! I am currently a research intern at <a href="https://www.bigai.ai" target="_blank">BIGAI&nbsp</a>. Before joining BIGAI, I was a research assistant in <a href="http://ml.cs.tsinghua.edu.cn/" target="_blank">TSAIL&nbsp</a>in the Department of Computer Science and Technology at <a href="https://www.tsinghua.edu.cn/en/" target="_blank">Tsinghua University&nbsp</a> in Beijing, China. I got my Master degree from the Department of Electrical and Computer Engineering, University of California, Los Angeles (<a href="https://www.ucla.edu/" target="_blank">UCLA&nbsp</a>). Before that, I spent my 4 years of undergraduate study at <a href="https://www.tsinghua.edu.cn/en/" target="_blank">Tsinghua University&nbsp</a>, majoring in Electrical Engineering and Automation.  
         </p>
 
-				<p>My research interests lie primarily in AI-related areas, including but are not limited to <strong>robotics</strong>, <strong>reinforcement learning</strong>, <strong>computer vision</strong>, etc. I am especially into fusing these theories and methods, and applying them to real-world appliactions.
+				<p>My research interests lie primarily in AI-related areas, including but are not limited to <strong>reinforcement learning</strong>, <strong>computer vision</strong>, <strong>robotics</strong>, etc. I am especially into fusing these theories and methods, and applying them to real-world appliactions.
         </p>
 
 				<!-- Icons -->
@@ -136,7 +136,7 @@
 				<strong>Programming</strong>: Python, C++, Java, C, R, JavaScript, Matlab, Verilog HDL, etc.
 			</li>
       <li>
-				<strong>Software</strong>: ROS, Multisim, Quartus II, Simulink, IAR Embedded Workbench, etc.
+				<strong>Software</strong>: ROS, Arduino, IAR Embedded Workbench, Multisim, Quartus II, Simulink, etc.
 			</li>
       <li>
 				<strong>Deep Learning Framework</strong>: PyTorch, TensorFlow.
@@ -158,22 +158,16 @@
 				<b><font color="black">Robotics, 2021.07 - present</font></b><br>
 				<li>Intern at <a href="https://www.bigai.ai/index.html" target="_blank">Beijing Institute for General Artificial Intelligence&nbsp</a>.
 				</li>
-				<li>Currently working on finding novel ways to combine motion planning and reinforcement learning to make the best use of both methods, in order to better benefit the task of mobile manipulation.
+				<li>Devised a cooperative planning framework and an iterative optimization scheme to generate smooth and collision-free trajectories for a tethered Turtlebot3 Waffle Pi duo, which is tasked to gather scattered objects spread in a large area using a flexible net while properly avoiding obstacles.
+				</li>
+				<li>Successfully implemented both simulation in Gazebo and the real-world experiment using MRAC to cope with increased payload with unknown dynamics.
+				</li>
+				<li>Came up with the idea of leveraging reinforcement learning to handle uncertainty in VKC-based motion planning in a mobile manipulation task of door opening; set up simulation environment in MuJoCo with OpenAI Gym-like APIs.
 				</li>
       			</div>
 		</div><hr>
 		
-		<!-- Tethered Turtlebot -->
-		<div class="row">
-			<div class="col-md-3">
-				<img class="img-fluid img-rounded" src="./files/Turtlebot.jpg" style="" alt="">
-			</div>
-			<div class="col-md-9">
-				<b><font color="black">Gathering Scattered Objects with Tethered Robot Duo, 2021.07 - 2021.09</font></b><br>
-				<li>
-				</li>
-      			</div>
-		</div><hr>
+		
 
 		<!-- RL -->
 		<div class="row">
@@ -200,7 +194,7 @@
 				<em>Supervised by Prof. <a href="http://www.eea.tsinghua.edu.cn/en/faculties/jlin/" target="_blank">Jin Lin&nbsp</a> at Tsinghua University</em><br>
 				<li>Utilized Random Forest Classifier, t-SNE and Topological Data Analysis(TDA) in the phase identification of smart meters, based on collected historical big data of voltage magnitude, and fine-tuned the model.
 				</li>
-			        <li>Applied Monte Carlo method to the model, which helped to select the training sets effectively and improve accuracy of phase identification with small workload.
+			        <li>Applied Monte Carlo method to the model, which helped to select the training sets effectively and to improve accuracy of phase identification to 97% with a small workload of 10%.
         			</li>
       			</div>
 		</div><hr>
@@ -215,15 +209,15 @@
 				<em>Supervised by Prof. <a href="https://www.ee.columbia.edu/~wangx/" target="_blank">Xiaodong Wang&nbsp</a> at Columbia University</em><br>
 				<li>Simulated two blockchain systems: Bitcoin system and Ethereum system in Matlab.
 				</li>
-			        <li>Analyzed the difference of behavior and security of the two systems when under attack.
+			        <li	Analyzed the difference of decentralization level of the two systems, as well as their different behavior and security degree when under attack.
         			</li>
       			</div>
 		</div><hr>
 	</div><br>
 		
-	<!-- Selected Course Projects -->
+	<!-- Selected Projects -->
 	<div class="container">
-		<h3 id="Selected Course Projects" style="">Selected Course Projects</h3><hr>
+		<h3 id="Selected Course Projects" style="">Selected Projects</h3><hr>
 		<!-- <font color="black">(* indicate equal contribution)</font><br><hr> -->
 		
 		<!-- DeepGeo -->
@@ -263,7 +257,7 @@
 			</div>
 			<div class="col-md-9">
 				<b><font color="black">Combined Network Based Deep Learning Methods for EEG Dataset Classification, 2020.03</font></b><br>
-				<li>Combined different architectures of CNN and RNN, and optimized them over hyperparameters.
+				<li>Implemented and combined different architectures of CNN and RNN, and optimized them over hyperparameters.
 				</li>
 			        <li>Leveraged data augmentation, voting methods, etc. to improve the model, which boosted the classification accuracy to over 70%.
         			</li>
@@ -276,10 +270,10 @@
 				<img class="img-fluid img-rounded" src="./files/HCI.png" style="" alt="">
 			</div>
 			<div class="col-md-9">
-				<b><font color="black">Grocery Shopping Helper Based on Interactively Customized Image Classifier, 2019.12</font></b><br>
+				<b><font color="black">Grocery Shopping Helper Based on Interactively Customized Image Classifier, 2019.11 - 2019.12</font></b><br>
 				<li>Implemented a customizable web application, which classified goods based on <a href="https://arxiv.org/pdf/1704.04861.pdf" target="_blank">MobileNet&nbsp</a> by Google.
 				</li>
-			        <li>Applied transfer learning to the application by removing the last layer of MobileNet and appending KNN to it, enabling the model to be trained and customized simultaneously.
+			        <li>Applied transfer learning to the application by removing the last layer of MobileNet and appending KNN to it, enabling the model to be trained and customized simultaneously and smoothly.
         			</li>
       			</div>
 		</div><hr>
